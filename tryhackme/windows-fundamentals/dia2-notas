@@ -1,32 +1,60 @@
-# 🪟 TryHackMe - Windows Fundamentals: Día 2  
-## 🧠 Qué aprendí
+🪟 TryHackMe - Fundamentos de Windows: Día 2
 
-### ⚙️ Configuración del sistema (`msconfig`)
-- Es una herramienta para **diagnosticar y solucionar problemas de arranque** en Windows.
-- Aunque muestra programas que inician con el sistema, **no está diseñada para gestionar completamente el inicio**.
-- Permite configurar cómo se inicia Windows (modo seguro, servicios, arranque selectivo, etc.).
-- Ofrece pestañas para revisar distintos elementos del sistema y muestra **los comandos que se ejecutan en segundo plano** al abrir algunas funciones.
+🧠 Qué aprendí
+Configuración del sistema (msconfig):
 
-### 🖥️ Administración del equipo (Computer Management)
-- Desde aquí se puede acceder a herramientas como:
-  - **Programador de tareas** (Task Scheduler): permite **crear scripts o tareas automatizadas** que se ejecutan en horarios específicos.
-  - **Visor de eventos** (Event Viewer): útil para **auditorías y seguimiento** del sistema mediante registros detallados de eventos.
-  - **Variables del sistema**: se pueden revisar y modificar, lo que permite entender cómo Windows gestiona rutas y configuraciones internas.
+Sirve para detectar y aislar problemas relacionados con el arranque de Windows.
 
-### 📊 Otras herramientas exploradas
-- **Monitor de recursos (Resource Monitor)**: herramienta para observar uso de CPU, memoria, red y disco. Aún no se exploró a fondo.
-- **Símbolo del sistema (CMD)**:
-  - Se practicó el uso de comandos clave como:
+No es una herramienta de gestión de inicio, sino de configuración avanzada del sistema operativo.
 
-```cmd
-systeminfo    // Muestra información detallada del sistema
-whoami        // Muestra el usuario actual
-ipconfig      // Muestra configuración IP
-netstat       // Muestra conexiones de red activas
-net           // Comando para gestionar usuarios, servicios, etc.
+Ofrece varias pestañas que permiten controlar servicios, arranque selectivo y otras opciones importantes.
 
+Muestra los comandos que Windows ejecuta en segundo plano para realizar tareas comunes del sistema.
 
-✅ Lab completado
+Administración del equipo (Computer Management):
+
+Aprendimos a ubicar el Programador de tareas, que permite crear scripts o tareas automatizadas que se ejecutan a cierta hora o bajo ciertas condiciones.
+
+Vimos el Visor de eventos (Event Viewer), que permite:
+
+Llevar un registro detallado de eventos del sistema.
+
+Auditar incidentes y fallos en futuras investigaciones o seguimientos.
+
+También accedimos a las variables del sistema, visualizando su estructura y propiedades.
+
+Monitor de recursos (Resource Monitor):
+
+Herramienta que muestra el consumo de CPU, RAM, disco y red.
+
+Aún no se exploró en profundidad, pero se identificó como útil para análisis de rendimiento del sistema.
+
+Símbolo del sistema (CMD):
+
+Utilizamos comandos básicos pero muy importantes para diagnóstico:
+
+c
+Copiar
+Editar
+systeminfo    // Información detallada del sistema operativo
+whoami        // Usuario actualmente conectado
+ipconfig      // Detalles de configuración IP
+netstat       // Conexiones de red activas
+net           // Gestión de usuarios, servicios, etc.
+⚙️ Comandos y herramientas exploradas
+msconfig (Configuración del sistema)
+
+Computer Management (Administrador del equipo)
+
+Task Scheduler (Programador de tareas)
+
+Event Viewer (Visor de eventos)
+
+Resource Monitor (Monitor de recursos)
+
+Símbolo del sistema (cmd): systeminfo, whoami, ipconfig, netstat, net
+
+✅ Laboratorio completado
 Fecha: 22 de junio de 2025
 
 Nivel: Básico
@@ -34,3 +62,10 @@ Nivel: Básico
 Estado: ✔️ Completado
 
 Plataforma: TryHackMe
+
+#IMPORTANTE-NOTA:
+Este documento fue redactado con ayuda de inteligencia artificial a partir de mis notas personales.
+El contenido refleja mi aprendizaje real; la IA fue utilizada únicamente para mejorar la organización, redacción y presentación con el objetivo de mayor legibilidad a futuro.
+
+✍️ ERR574
+
