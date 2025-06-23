@@ -1,0 +1,36 @@
+# 🪟 TryHackMe - Windows Fundamentals: Día 2  
+## 🧠 Qué aprendí
+
+### ⚙️ Configuración del sistema (`msconfig`)
+- Es una herramienta para **diagnosticar y solucionar problemas de arranque** en Windows.
+- Aunque muestra programas que inician con el sistema, **no está diseñada para gestionar completamente el inicio**.
+- Permite configurar cómo se inicia Windows (modo seguro, servicios, arranque selectivo, etc.).
+- Ofrece pestañas para revisar distintos elementos del sistema y muestra **los comandos que se ejecutan en segundo plano** al abrir algunas funciones.
+
+### 🖥️ Administración del equipo (Computer Management)
+- Desde aquí se puede acceder a herramientas como:
+  - **Programador de tareas** (Task Scheduler): permite **crear scripts o tareas automatizadas** que se ejecutan en horarios específicos.
+  - **Visor de eventos** (Event Viewer): útil para **auditorías y seguimiento** del sistema mediante registros detallados de eventos.
+  - **Variables del sistema**: se pueden revisar y modificar, lo que permite entender cómo Windows gestiona rutas y configuraciones internas.
+
+### 📊 Otras herramientas exploradas
+- **Monitor de recursos (Resource Monitor)**: herramienta para observar uso de CPU, memoria, red y disco. Aún no se exploró a fondo.
+- **Símbolo del sistema (CMD)**:
+  - Se practicó el uso de comandos clave como:
+
+```cmd
+systeminfo    // Muestra información detallada del sistema
+whoami        // Muestra el usuario actual
+ipconfig      // Muestra configuración IP
+netstat       // Muestra conexiones de red activas
+net           // Comando para gestionar usuarios, servicios, etc.
+
+
+✅ Lab completado
+Fecha: 22 de junio de 2025
+
+Nivel: Básico
+
+Estado: ✔️ Completado
+
+Plataforma: TryHackMe
