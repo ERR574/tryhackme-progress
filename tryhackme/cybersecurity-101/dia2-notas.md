@@ -103,4 +103,12 @@ Se configuran entre dominios.
 
 Pueden ser unidireccionales o bidireccionales.
 
+✅ **Estado:** ✔️ Completado  
+📅 **Fecha:** 29 de junio de 2025  
+🖥️ **Plataforma:** TryHackMe  
+
+#IMPORTANTE-NOTA: Este documento fue redactado con ayuda de inteligencia artificial a partir de mis notas personales. El contenido refleja mi aprendizaje real; la IA fue utilizada únicamente para mejorar la organización, redacción y presentación con el objetivo de mayor legibilidad a futuro.
+
+✍️ ERR574
+
 
